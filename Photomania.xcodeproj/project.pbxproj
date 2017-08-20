@@ -17,6 +17,8 @@
 		22F2B01619A5C39900939296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F2B01419A5C39900939296 /* Main.storyboard */; };
 		22F2B01819A5C39900939296 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F2B01719A5C39900939296 /* Images.xcassets */; };
 		22F2B03119A5C4B100939296 /* PhotoBrowserCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2B03019A5C4B100939296 /* PhotoBrowserCollectionViewController.swift */; };
+		62F0892E1F4984DA002D63C8 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F0892D1F4984DA002D63C8 /* Alamofire.framework */; };
+		7F123CD92F217DBC846F8363 /* Pods_Photomania.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A532EA8396B598694D8A41 /* Pods_Photomania.framework */; };
 		D8678A4E1C00438F00BD18E6 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8678A4D1C00438F00BD18E6 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +36,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		01679A089602B4B11730D604 /* Pods-Photomania.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photomania.release.xcconfig"; path = "Pods/Target Support Files/Pods-Photomania/Pods-Photomania.release.xcconfig"; sourceTree = "<group>"; };
 		22056D0F19AA62C900F7A88B /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
 		22056D1119AB16C100F7A88B /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 		2246208119D49AED00B52F40 /* Five100px.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Five100px.swift; sourceTree = "<group>"; };
@@ -46,6 +49,9 @@
 		22F2B01519A5C39900939296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22F2B01719A5C39900939296 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		22F2B03019A5C4B100939296 /* PhotoBrowserCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoBrowserCollectionViewController.swift; sourceTree = "<group>"; };
+		2641E8EEAB8DD61BE0EC77FB /* Pods-Photomania.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photomania.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Photomania/Pods-Photomania.debug.xcconfig"; sourceTree = "<group>"; };
+		53A532EA8396B598694D8A41 /* Pods_Photomania.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Photomania.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F0892D1F4984DA002D63C8 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Photomania-bxnvvhdcdchhpffgztemdabcfgrq/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 		D8678A4D1C00438F00BD18E6 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62F0892E1F4984DA002D63C8 /* Alamofire.framework in Frameworks */,
+				7F123CD92F217DBC846F8363 /* Pods_Photomania.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +73,8 @@
 			children = (
 				22F2B00D19A5C39900939296 /* Photomania */,
 				22F2B00C19A5C39900939296 /* Products */,
+				649F8560CCA0B973D6F7DA01 /* Pods */,
+				A78C08190284521AA9A3FEED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +113,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		649F8560CCA0B973D6F7DA01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2641E8EEAB8DD61BE0EC77FB /* Pods-Photomania.debug.xcconfig */,
+				01679A089602B4B11730D604 /* Pods-Photomania.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A78C08190284521AA9A3FEED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62F0892D1F4984DA002D63C8 /* Alamofire.framework */,
+				53A532EA8396B598694D8A41 /* Pods_Photomania.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,10 +138,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22F2B02719A5C39A00939296 /* Build configuration list for PBXNativeTarget "Photomania" */;
 			buildPhases = (
+				EA7798C585413A79FA5339BE /* [CP] Check Pods Manifest.lock */,
 				22F2B00719A5C39900939296 /* Sources */,
 				22F2B00819A5C39900939296 /* Frameworks */,
 				22F2B00919A5C39900939296 /* Resources */,
 				223F8FB419CB697D00750D7B /* Embed Frameworks */,
+				CC09EDB3BD37C5C0977CB515 /* [CP] Embed Pods Frameworks */,
+				79C905FAE90D3CCA07DB7E46 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,6 +168,7 @@
 				TargetAttributes = {
 					22F2B00A19A5C39900939296 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = QTR3NT98RR;
 						LastSwiftMigration = 0800;
 					};
 				};
@@ -171,6 +203,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79C905FAE90D3CCA07DB7E46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Photomania/Pods-Photomania-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC09EDB3BD37C5C0977CB515 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Photomania/Pods-Photomania-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Photomania/Pods-Photomania-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA7798C585413A79FA5339BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Photomania-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		22F2B00719A5C39900939296 /* Sources */ = {
@@ -289,8 +375,10 @@
 		};
 		22F2B02819A5C39A00939296 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2641E8EEAB8DD61BE0EC77FB /* Pods-Photomania.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QTR3NT98RR;
 				INFOPLIST_FILE = Photomania/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -302,8 +390,10 @@
 		};
 		22F2B02919A5C39A00939296 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01679A089602B4B11730D604 /* Pods-Photomania.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QTR3NT98RR;
 				INFOPLIST_FILE = Photomania/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
